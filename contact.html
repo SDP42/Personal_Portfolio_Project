@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Swayam Panchal</title>
+    <style>
+      body {
+        background-color: #f0f8ff;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: #2c3e50;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 30px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #2c3e50;
+        font-size: 16px;
+        padding: 8px 16px;
+        transition: all 0.3s ease;
+        border-radius: 5px;
+      }
+
+      .nav-links a:hover {
+        background-color: #3498db;
+        color: white;
+      }
+
+      #contact {
+        max-width: 1200px;
+        margin: 40px auto;
+        background: #ffffff;
+        padding: 40px 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 30px;
+        font-size: 32px;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+        text-align: center;
+      }
+
+      .contact-info {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+      }
+
+      .contact-info strong {
+        color: #2c3e50;
+      }
+
+      .contact-info a {
+        text-decoration: none;
+        color: #00796b;
+      }
+
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        .name {
+          flex-direction: column;
+          gap: 20px;
+          padding: 20px;
+        }
+
+        .nav-links {
+          gap: 15px;
+        }
+
+        #contact {
+          margin: 20px;
+          padding: 30px 20px;
+        }
+
+        h2 {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="name">
+      <div class="logo">Swayam Panchal</div>
+      <div class="nav-links">
+        <a href="newproject.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <p>
+        Have a project, collaboration idea, or just want to say hello? Feel free
+        to reach out. I'd love to connect!
+      </p>
+
+      <div class="contact-info">
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:swayam@example.com">swayam@example.com</a>
+        </p>
+        <p><strong>Phone:</strong> +91 1234567890</p>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a href="https://linkedin.com/in/" target="_blank"
+            >linkedin.com/in/swayampanchal</a
+          >
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/" target="_blank"
+            >github.com/swayampanchal</a
+          >
+        </p>
+        <p><strong>Location:</strong> Mumbai, Maharashtra, India</p>
+      </div>
+    </section>
+  </body>
+</html>
